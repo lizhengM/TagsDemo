@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1874BEC81F5FE31300BFE315 /* TagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1874BEC71F5FE31300BFE315 /* TagButton.m */; };
 		6A364B1D1C50AE5900A82468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A364B1C1C50AE5800A82468 /* main.m */; };
 		6A364B201C50AE5D00A82468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A364B1F1C50AE5A00A82468 /* AppDelegate.m */; };
 		6A364B231C50AE6000A82468 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A364B221C50AE6000A82468 /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		6A364B2B1C50AE6300A82468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A364B291C50AE6300A82468 /* LaunchScreen.storyboard */; };
 		6A364B361C50AE7600A82468 /* TagsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A364B351C50AE7600A82468 /* TagsDemoTests.m */; };
 		6A364B411C50AE7C00A82468 /* TagsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A364B401C50AE7C00A82468 /* TagsDemoUITests.m */; };
+		6A364B501C50AEE100A82468 /* TagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A364B4F1C50AEE100A82468 /* TagsView.m */; };
+		6A364B531C50AEFE00A82468 /* TagsFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A364B521C50AEFE00A82468 /* TagsFrame.m */; };
+		6A364B561C50BF6800A82468 /* TagsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A364B551C50BF6800A82468 /* TagsViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1874BEC61F5FE31300BFE315 /* TagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagButton.h; sourceTree = "<group>"; };
+		1874BEC71F5FE31300BFE315 /* TagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagButton.m; sourceTree = "<group>"; };
 		6A364B181C50AE5600A82468 /* TagsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A364B1C1C50AE5800A82468 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A364B1E1C50AE5A00A82468 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		6A364B3C1C50AE7A00A82468 /* TagsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TagsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A364B401C50AE7C00A82468 /* TagsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagsDemoUITests.m; sourceTree = "<group>"; };
 		6A364B421C50AE7D00A82468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A364B4E1C50AEE100A82468 /* TagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsView.h; sourceTree = "<group>"; };
+		6A364B4F1C50AEE100A82468 /* TagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsView.m; sourceTree = "<group>"; };
+		6A364B511C50AEFE00A82468 /* TagsFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsFrame.h; sourceTree = "<group>"; };
+		6A364B521C50AEFE00A82468 /* TagsFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsFrame.m; sourceTree = "<group>"; };
+		6A364B541C50BF6800A82468 /* TagsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsViewCell.h; sourceTree = "<group>"; };
+		6A364B551C50BF6800A82468 /* TagsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				6A364B291C50AE6300A82468 /* LaunchScreen.storyboard */,
 				6A364B2C1C50AE6500A82468 /* Info.plist */,
 				6A364B1B1C50AE5800A82468 /* Supporting Files */,
+				6A364B4E1C50AEE100A82468 /* TagsView.h */,
+				6A364B4F1C50AEE100A82468 /* TagsView.m */,
+				6A364B511C50AEFE00A82468 /* TagsFrame.h */,
+				6A364B521C50AEFE00A82468 /* TagsFrame.m */,
+				6A364B541C50BF6800A82468 /* TagsViewCell.h */,
+				6A364B551C50BF6800A82468 /* TagsViewCell.m */,
+				1874BEC61F5FE31300BFE315 /* TagButton.h */,
+				1874BEC71F5FE31300BFE315 /* TagButton.m */,
 			);
 			path = TagsDemo;
 			sourceTree = "<group>";
@@ -202,7 +222,7 @@
 		6A364B101C50AE5200A82468 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Administrator;
 				TargetAttributes = {
 					6A364B171C50AE5600A82468 = {
@@ -271,8 +291,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A364B231C50AE6000A82468 /* ViewController.m in Sources */,
+				6A364B561C50BF6800A82468 /* TagsViewCell.m in Sources */,
+				1874BEC81F5FE31300BFE315 /* TagButton.m in Sources */,
 				6A364B201C50AE5D00A82468 /* AppDelegate.m in Sources */,
 				6A364B1D1C50AE5900A82468 /* main.m in Sources */,
+				6A364B531C50AEFE00A82468 /* TagsFrame.m in Sources */,
+				6A364B501C50AEE100A82468 /* TagsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +364,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -383,8 +409,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -496,6 +524,7 @@
 				6A364B471C50AE7D00A82468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A364B481C50AE7D00A82468 /* Build configuration list for PBXNativeTarget "TagsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +533,7 @@
 				6A364B4A1C50AE7D00A82468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A364B4B1C50AE7D00A82468 /* Build configuration list for PBXNativeTarget "TagsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +542,7 @@
 				6A364B4D1C50AE7D00A82468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
